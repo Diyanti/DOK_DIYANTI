@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profilSaya"
+            android:icon="@drawable/icon_user_24"
+            android:tint="@color/button_grey"
+            android:title="Profil Saya" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/icon_exit_24"
+            android:tint="@color/button_grey"
+            android:title="Keluar" />
+    </group>
+</menu>

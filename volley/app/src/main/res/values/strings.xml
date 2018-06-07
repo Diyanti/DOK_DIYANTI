@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BUSAYU</string>
+    <string name="action_settings">Settings</string>
+    <string name="dinas">DINAS KEBUDAYAAN DAN PARIWISATA KABUPATEN INDRAMAYU</string>
+    <string name="visi">Terwujudnya kebudayaan dan pariwisata kabupaten indramayu yang arsitektual berkelanjutan dan menjunjung tinggi nilai budaya lokal berkelas
+    internasional yang religius, maju, mandiri, dan sejahtera pada tahun 2021</string>
+    <string name="misi1">1. Membangun sumber daya manusia di bidang kebudayaan dan pariwisata yang berkompetensi dan berdaya saing tinggi</string>
+    <string name="misi2">2. Membangun struktur industri kebudayaan dan pariwisata yang sinergis, berkelanjutan dan berbasis lingkungan</string>
+    <string name="alamat">Jl. Gatot Subroto No.4 Indramayu, Jawa Barat</string>
+    <string name="notelp">(0234)272325</string>
+    <string name="judul">PROJECT BASED LEARNING II \n D3 TEKNIK INFORMATIKA \n POLITEKNIK NEGERI INDRAMAYU</string>
+    <string name="kelompok">KELOMPOK 4 | D3TI2.D</string>
+    <string name="nama">FIRSTI AULYA K. K. \n FIRMANSYAH \n DIYANTI \n RIZKY ALIEF SATRIA</string>
+    <string name="tentang_disbud">Tentang \n Disbudpar</string>
+</resources>

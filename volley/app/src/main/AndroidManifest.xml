@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.firman.proyek2volley">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial" />
+        <activity
+            android:name=".Activity.BudayaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PariwisataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PengaduanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TentangDisbudpar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TentangKami"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.KegiatanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Detail.BudayaDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial" />
+        <activity
+            android:name=".Profile.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile.ProfileUbah"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Profile.PasswordUbah"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activity.WisataAlamActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Detail.WisataAlamDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial"/>
+        <activity
+            android:name=".Activity.WisataBuatanActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Detail.WisataBuatanDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial"/>
+        <activity
+            android:name=".Activity.TravelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Detail.TravelDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial"/>
+        <activity
+            android:name=".Activity.KulinerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Detail.KulinerDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial"/>
+        <activity
+            android:name=".Activity.HotelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Detail.HotelDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial"/>
+        <activity
+            android:name=".Activity.RestoranActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Detail.RestoranDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial"/>
+        <activity
+            android:name=".Detail.KegiatanDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMaterial"/>
+    </application>
+
+</manifest>

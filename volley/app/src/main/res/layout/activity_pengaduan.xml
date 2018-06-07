@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PengaduanActivity"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/jenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Pengaduan"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/md_keylines"
+            android:textSize="18sp"/>
+
+        <RadioGroup
+            android:id="@+id/rgJenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jenis"
+            android:layout_centerHorizontal="true">
+            <RadioButton
+                android:id="@+id/rbBudaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Budaya"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/rbPariwisata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pariwisata"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/rbKegiatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kegiatan"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvPilih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rgJenis"
+            android:text="Pilih Pariwisata"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/md_keylines"/>
+
+        <RadioGroup
+            android:id="@+id/rgPilih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPilih"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true">
+            <RadioButton
+                android:id="@+id/rbWisataAlam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wisata Alam"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/rbWisataBuatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wisata Buatan"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/rbTravel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Travel"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/rbKuliner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kuliner"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/rbHotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotel"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/rbRestoran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restoran"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnPilih"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/white"
+            android:layout_below="@id/rgPilih"
+            android:text="Pilih Gambar"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btnPilih"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtInput1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/md_keylines">
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Nama Yang Diajukan"
+                android:layout_marginTop="@dimen/md_keylines"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtInput2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtInput1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/md_keylines">
+            <EditText
+                android:id="@+id/etDesc"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Deskripsi"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/md_keylines"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/white"
+            android:layout_below="@id/txtInput2"
+            android:text="Kirim"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
